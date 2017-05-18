@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.masaga.goyom">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.masaga.goyom.Activity.MainActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:label="Login"
+                    android:screenOrientation="portrait" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.masaga.goyom.Activity.RegistrationActivity"
+            android:label="User Registration"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.masaga.goyom.Activity.AddEntityActivity"
+            android:label="Add Entity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.masaga.goyom.Activity.AddOutlateActivity"
+            android:label="Add Outlate"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.masaga.goyom.Activity.MarchantOrderActivity"
+            android:label="Marchant Order"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

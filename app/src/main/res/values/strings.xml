@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GoYo-M</string>
+    <!-- Temporary array-->
+    <string-array name="Entity">
+        <item>Select Entity</item>
+        <item>Pizza hut</item>
+        <item>Fassos</item>
+        <item>Dominos</item>
+    </string-array>
+
+    <string-array name="Outlate">
+        <item>Select Outlate</item>
+        <item>Mira Road Outlate</item>
+        <item>Malad Waste</item>
+        <item>Borivali East</item>
+    </string-array>
+
+    <string-array name="steps_titles">
+        <item>Add PickupDetails</item>
+        <item>Add Stops</item>
+        <item>Submit Order</item>
+    </string-array>
+</resources>
